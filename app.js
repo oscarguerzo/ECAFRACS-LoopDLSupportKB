@@ -1661,6 +1661,107 @@ content:`
 `
 }
 },
+notes:{
+"Notes":{
+title:"Notes",
+content:`
+<h3>Important info from cx</h3>
+<ul>
+<li>Phone number and email they wish to be contacted from</li>
+<li>Link of the account if multiple accounts are involved</li>
+<li>Email if the customer has multiple accounts</li>
+<li>Special requests (etc.)</li>
+<li>If the e-SIM the customer is using is 3rd party</li>
+</ul>
+
+<h3>Porting and SIM Swap</h3>
+<ul>
+<li>If porting-in from another provider
+<ul>
+<li>Status of e-SIM from their previous provider
+<ul>
+<li>Released</li>
+<li>Not released</li>
+<li>When was the PAC code requested from the prior company</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Phone number before and after porting / SIM swap</li>
+<li>PAC code</li>
+</ul>
+
+<h3>Anything That Needs TL Permission</h3>
+<ul>
+<li>Refund</li>
+<li>Immediate cancellation of account</li>
+<li>SIM swap</li>
+</ul>
+
+<h3>Network</h3>
+<ul>
+<li>Speed test results</li>
+<li>Exact location where network is used (address with postal code)</li>
+<li>Device in question
+<ul>
+<li>Loop serial number</li>
+<li>e-SIM MSISDN</li>
+<li>Make and model of phone</li>
+</ul>
+</li>
+<li>Error message(s) observed</li>
+</ul>
+
+<h3>Billing</h3>
+<ul>
+<li>Promised PTP date</li>
+<li>Account status</li>
+<li>Credit and compensation
+<ul>
+<li>Amount</li>
+</ul>
+</li>
+</ul>
+
+<h3>Logistics</h3>
+<ul>
+<li>Delivery address change</li>
+<li>Device issue
+<ul>
+<li>Customer-induced</li>
+<li>Upon delivery</li>
+</ul>
+</li>
+</ul>
+
+<h3>Cancellation</h3>
+<ul>
+<li>Reason for cancellation</li>
+</ul>
+
+<h3>Etc.</h3>
+<ul>
+<li>Processes that are account-related
+<ul>
+<li>PTP</li>
+</ul>
+</li>
+<li>Disclosures when needed</li>
+<li>Information checked on the KB during troubleshooting ("Things we check")</li>
+<li>Prior troubleshooting the customer did before the call</li>
+<li>Troubleshooting done and info extracted, error message(s), so that it will not be available for next agents</li>
+<li>Any actions taken on theStation</li>
+<li>To be compiled if more info is discovered or suggested by the team</li>
+</ul>
+
+<h3>Important Emails</h3>
+<ul>
+<li>support@loopdl.co.uk</li>
+<li>legal@loopdl.co.uk</li>
+</ul>
+`
+}
+},
 };
 
 let currentCategory="";
@@ -1690,6 +1791,12 @@ function openArticle(category,article){
   footnote.innerHTML='';
   footnote.style.display='none';
  }
+}
+function openNotes(){
+ currentCategory="notes";
+ const list=document.getElementById('articleList');
+ list.innerHTML='';
+ openArticle('notes','Notes');
 }
 function stripHtml(html){
  return html.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
