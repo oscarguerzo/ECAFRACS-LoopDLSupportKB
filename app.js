@@ -671,11 +671,9 @@ content:`
 </ul>
 
 <div class="warning-box">
-<ul>
-<li>Note: there are no set parameters for when a PTP is present on the account — check on a case-by-case basis.</li>
-<li>Check the account first before disclosing about the PTP feature.</li>
-<li>Always disclose SSO (Self Service Options) on the website if PTP is available for the customer.</li>
-</ul>
+<p>Setting up a Promise to Pay may help prevent the service from being automatically cancelled on the 7th day.</p>
+<p>Customers should set up a Promise to Pay before the 7th day to help avoid cancellation and keep their service active.</p>
+<p>They should also ensure sufficient funds are available on the agreed payment date so the payment can be processed successfully.</p>
 </div>
 `
 },
