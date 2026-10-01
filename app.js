@@ -29,7 +29,7 @@ const knowledge = {
 network:{
 "Slow Speeds / No Connection / WIFI issues / Streaming":{
 title:"Network - Slow Speeds / No Connection / WIFI issues / Streaming",
-source:"Slides 2–4",
+source:"Slides 2–3, 5",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -56,28 +56,33 @@ content:`
 </ul>
 </div>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 2</div>
-
 <h3>Troubleshooting Steps</h3>
 
 <h4>Loop</h4>
-<ul>
+<ol>
 <li>Run a speed test</li>
 <li>Optimize the connection</li>
 <li>Reboot the device</li>
-<li>Get the customer’s exact location if escalation is needed</li>
+<li>Get the customer's exact location if escalation is needed</li>
 <li>Factory reset as last resort - check with TL first.</li>
-</ul>
+</ol>
 
 <h4>e-SIM</h4>
-<ul>
+<ol>
 <li>Confirm if SMS, calls, and data are all not working</li>
-<li>Restart the device; reboot (turn phone off, then back on)</li>
-<li>Make sure the customer is using the same phone we are troubleshooting, or the device is present on the call</li>
-<li>Check the APN settings</li>
-<li>Toggle airplane mode (steps below)</li>
-</ul>
+<li>Restart the device; reboot (Turn your phone off, then turn it back on)</li>
+<li>Make sure the customer is using the same phone we are troubleshooting or the device is present upon the call.</li>
+<li>Check the APN settings.</li>
+<li>Toggle airplane mode (turn it on, then off, to refresh the connection)</li>
+</ol>
 
+<div class="warning-box">
+<p>If issue persists after all TS, advice the customer to observe the issue within 24-48 hours. Offer callback. After said timeframe, ask customer if they wish to continue service.</p>
+</div>
+
+<p class="slide-marker">Source: LoopDL UK Gameplan — Slide 3</p>
+
+<!-- RESERVED: Slide 4 (hidden, not displayed). Future content goes here.
 <h4>Toggle Airplane Mode / Manual Network Selection</h4>
 <ol>
 <li>Toggle Airplane Mode: turn Airplane Mode on for 10 seconds, then turn it off to force a network scan.</li>
@@ -93,44 +98,25 @@ content:`
 <li>If the issue persists, get the error and ask the customer to send it via email, then escalate to MO under network issue.</li>
 </ul>
 </div>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 3</div>
-
-<h4>If Escalation Is Needed, Get:</h4>
-<ul>
-<li>Customer's exact location (address)</li>
-<li>Make and model (e.g. iPhone 13, Google Pixel 10 Pro)</li>
-<li>eSIM or cellular settings (does the customer connect through Vodafone or 3?)</li>
-<li>Loop: Serial number</li>
-<li>e-SIM MSISDN</li>
-</ul>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 4</div>
+-->
 `
 },
 
 "Activation":{
 title:"Network - Activation",
-source:"Slides 5–6",
+source:"Slides 6–7",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
 
-<div class="warning-box">
-<ul>
-<li>Ensure that the customer has the ability to login to their LoopDL account. If not, then go to Account - Password Reset.</li>
-<li>If the customer is not in the UK tell them the service is only within UK.</li>
-<li>Otherwise, proceed with troubleshooting.</li>
-</ul>
-</div>
+<p>Ensure customer can connect to a stable WIFI or mobile data hotspot.</p>
 
 <h4>Loop</h4>
 <ol>
 <li>Set up your loop by completing the Android setup process on the device.</li>
 <li>Tap the activation widget on the loop's home screen.</li>
 <li>Scan the QR code displayed on your loop with your phone.</li>
-<li>Follow the activation prompts on the LoopDL website.</li>
-<li>Enter your activation code.</li>
+<li>Follow the activation prompts on the LoopDL website, then enter your activation code, which was sent during purchase.</li>
 </ol>
 
 <figure class="kb-figure">
@@ -145,7 +131,7 @@ content:`
 </ul>
 </div>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 5</div>
+<p class="slide-marker">Source: LoopDL UK Gameplan — Slide 6</p>
 
 <h4>e-SIM</h4>
 <p>Please ensure the following before proceeding with installation:</p>
@@ -161,16 +147,25 @@ content:`
 <h4>Device Troubleshooting</h4>
 <ul>
 <li>Restart the device and attempt the installation again.</li>
+<li>Make sure the customer is using the correct credentials during login.</li>
 <li>If issues persist, delete unused e-SIM profiles if applicable.</li>
 </ul>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 6</div>
+<div class="warning-box">
+<ul>
+<li>If the e-SIM is on another device, proceed with Transfer e-SIM / e-SIM not working.</li>
+<li>If the customer is not in the UK, tell them the service is only within the UK.</li>
+<li>Otherwise, proceed with troubleshooting.</li>
+</ul>
+</div>
+
+<p class="slide-marker">Source: LoopDL UK Gameplan — Slide 7</p>
 `
 },
 
 "APN Settings":{
 title:"Network - APN Settings",
-source:"Slide 7",
+source:"Slide 8",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -191,7 +186,7 @@ content:`
 
 "SIM Swap":{
 title:"Network - SIM Swap",
-source:"Slide 8",
+source:"Slide 9",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -223,7 +218,7 @@ content:`
 },
 "SMS and Voice Query":{
 title:"Network - SMS and Voice Query",
-source:"Slide 9",
+source:"Slide 10",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -246,7 +241,7 @@ content:`
 
 "e-SIM Provision":{
 title:"Network - e-SIM Provision",
-source:"Slides 10–11",
+source:"Slides 11–12",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -271,8 +266,6 @@ content:`
 <figcaption>theStation — e-SIM compatibility check</figcaption>
 </figure>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 10</div>
-
 <h3>Troubleshooting</h3>
 
 <h4>e-SIM</h4>
@@ -288,14 +281,12 @@ content:`
 <li>If the customer is not in the UK – Mention that we only cater UK customers, then continue with other concerns.</li>
 </ul>
 </div>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 11</div>
 `
 },
 
 "Transfer e-SIM / e-SIM not working":{
 title:"Network - Transfer e-SIM / e-SIM not working",
-source:"Slides 12–14",
+source:"Slides 13–15",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -317,8 +308,6 @@ content:`
 </ul>
 </div>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 12</div>
-
 <h3>Troubleshooting (e-SIM Transfer Steps)</h3>
 
 <ol>
@@ -339,42 +328,31 @@ content:`
 <div class="warning-box">
 <ul>
 <li>If it did not work: Uninstall e-SIM / LoopDL app then reinstall.</li>
-<li>If issue persists, ask permission from TL for SIM Swap.</li>
+<li>If issue persists, do not SIM swap — escalate.</li>
 </ul>
 </div>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 13</div>
-
 <h3>Troubleshooting (e-SIM Transfer when customer does not have access to old phone)</h3>
 
+<h4>Customer does not want old number</h4>
 <ul>
-<li>Offer sim swap - for TL approval
-<ul>
-<li>if not accepted by cx and wanted to have old phone number
-<ul>
-<li>escalate so we may know if backend may release the old number via e-SIM GO
-<ul>
-<li>If e-SIM GO released the number, the customer just needs to activate the e-sim.</li>
-<li>if e-SIM GO cannot release the number, offer to have them purchase new e-sim so we may assist the cx to port out the old number and port it into the new e-sim
-<ul>
-<li>Advice porting disclosures.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
+<li>Ask customer if they have the phone number associated with any bank accounts or other accounts for that matter.</li>
+<li>If there is none, ask TL present for sim swap approval.</li>
 </ul>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 14</div>
+<h4>Customer needs the old number</h4>
+<ul>
+<li>Advise the customer to purchase another e-SIM.</li>
+<li>Advise the customer to pay all outstanding invoices (if any).</li>
+<li>Process and give their PAC.</li>
+<li>Proceed with porting process.</li>
+</ul>
 `
 },
 
 "Adult Content":{
 title:"Network - Adult Content",
-source:"Slides 15–16",
+source:"Slides 16–17",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -394,8 +372,6 @@ content:`
 
 <p>Once you turn it off, a pop-up with a website link will appear.</p>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 15</div>
-
 <h3>Verification</h3>
 
 <ol>
@@ -412,14 +388,12 @@ content:`
 <li>Legal adult, gambling, dating, and other age-restricted websites should be accessible once the filter is off, unless they fall under the legal blocking requirements above.</li>
 </ul>
 </div>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 16</div>
 `
 },
 
 "How to reset network settings on an iPhone":{
 title:"Network - How to reset network settings on an iPhone",
-source:"Slide 17",
+source:"Slide 18",
 content:`
 <h3>Steps</h3>
 
@@ -432,24 +406,9 @@ content:`
 </ol>
 `
 },
-"Steps to Manually Connect Vodafone UK e-SIM":{
-title:"Network - Steps to Manually Connect Vodafone UK e-SIM",
-source:"Slide 12",
-content:`
-<h3>Things we check</h3>
-<ul>
-<li>Confirm e-SIM is fully deleted from the old phone</li>
-<li>Ask where the customer bought the phone (within the UK?)</li>
-<li>Check if the device supports e-SIM</li>
-<li>Get the make and model and verify compatibility</li>
-<li>Verify if e-SIM is allocated</li>
-</ul>
-`
-},
-
 "Use a 3rd Party SIM on Loop":{
 title:"Network - Use a 3rd Party SIM on Loop",
-source:"Slide 18",
+source:"Slide 20",
 content:`
 <h3>Process to Follow (Customer Side)</h3>
 <ol>
@@ -478,7 +437,7 @@ content:`
 
 "Loop Device Was Bought From a User / 2nd Hand Loop Device":{
 title:"Network - Loop Device Was Bought From a User / 2nd Hand Loop Device",
-source:"Slide 19",
+source:"Slide 21",
 content:`
 <h3>Process to Follow (Agent)</h3>
 
@@ -497,39 +456,35 @@ content:`
 
 "SIM Card Expired":{
 title:"Network - SIM Card Expired",
-source:"Slides 20–21",
+source:"Slides 22–23",
 content:`
 <h3>Initial Checks</h3>
 <ul>
-<li>Verify e-SIM Support</li>
-<li>Stable Internet Connection</li>
-<li>Remove VPNs</li>
+<li>Verify e-SIM Support — ensure the specific phone model supports eSIM. While many modern rugged phones do, some regional variants may not. Check Settings &gt; About Phone and look for an EID number.</li>
+<li>Stable Internet — a strong Wi-Fi connection is required to download the e-SIM profile. Switch off mobile data and ensure Wi-Fi is stable.</li>
+<li>Remove VPNs — disable any active VPNs, as they can block the activation server.</li>
 </ul>
 
 <h3>Troubleshooting Installation</h3>
-<ul>
-<li>Use Manual Entry</li>
-<li>Restart and Retry</li>
-<li>Check for Software Updates</li>
-<li>Reset Network Settings</li>
-</ul>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 20</div>
+<ol>
+<li>Use Manual Entry: if the QR code fails, use the manual activation details (SM-DP+ Address or activation string, Activation Code) provided by your carrier.</li>
+<li>Restart and Retry: a simple restart can fix stuck "Activating..." prompts.</li>
+<li>Check for Software Updates: Settings &gt; System &gt; System Update, to ensure the phone has the latest software.</li>
+<li>Reset Network Settings: Settings &gt; System &gt; Reset options &gt; Reset Wi-Fi, mobile &amp; Bluetooth. This can clear corrupted network data.</li>
+</ol>
 
 <h3>Activating the eSIM</h3>
-<ul>
-<li>Enable Data Roaming</li>
-<li>Toggle Airplane Mode</li>
-<li>Select Network Manually</li>
-</ul>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 21</div>
+<ol>
+<li>Enable Data Roaming: if using a travel e-SIM, enable data roaming in the settings for that specific e-SIM profile.</li>
+<li>Toggle Airplane Mode: turn on Airplane mode for 30s, then off to refresh connections.</li>
+<li>Select Network Manually: if it does not automatically connect, go to Settings &gt; Network &amp; Internet &gt; SIMs &gt; [Your e-SIM] &gt; Network operators and choose the supported network.</li>
+</ol>
 `
 },
 
 "Using LSA String (manual)":{
 title:"Network - Using LSA String (manual)",
-source:"Slide 22",
+source:"Slide 24",
 content:`
 <h3>Steps</h3>
 
@@ -537,10 +492,10 @@ content:`
 <li>Go to Settings</li>
 <li>Tap Network & Internet</li>
 <li>Tap SIMs</li>
-<li>Tap Add SIM</li>
+<li>Tap + Add SIM</li>
 <li>Tap Don't have a SIM card?</li>
 <li>Tap Enter code manually</li>
-<li>Paste or type your LSA string</li>
+<li>Paste or type your LSA string (see activation string in Station)</li>
 <li>Tap Connect / Add</li>
 <li>Wait for profile download</li>
 <li>Tap Activate / Turn on</li>
@@ -558,7 +513,7 @@ content:`
 
 "Delete e-SIM (Android, Samsung)":{
 title:"Network - Delete e-SIM (Android, Samsung)",
-source:"Slide 23",
+source:"Slide 25",
 content:`
 <h3>Steps</h3>
 
@@ -575,7 +530,7 @@ content:`
 
 "Device Is Not e-SIM Compatible (iOS)":{
 title:"Network - Device Is Not e-SIM Compatible (iOS)",
-source:"Slide 24",
+source:"Slide 26",
 content:`
 <h3>Things we check</h3>
 <ul>
@@ -609,17 +564,18 @@ content:`
 
 "Onboarding Process":{
 title:"Network - Onboarding Process",
-source:"Slide 25",
+source:"Slide 27",
 content:`
 <h3>Steps</h3>
 
 <ol>
-<li>Run speed test and optimization in theStation</li>
-<li>Check customer experience</li>
-<li>Verify connection speed with customer</li>
-<li>Get customer feedback</li>
-<li>Confirm satisfaction and overall experience</li>
-<li>Move to healthy</li>
+<li><strong>Onboarding new devices</strong>
+<ul><li>Run speed test and optimization in theStation</li></ul></li>
+<li><strong>Checking experience</strong>
+<ul><li>Verify connection speed with the customer</li></ul></li>
+<li><strong>Getting customer feedback</strong>
+<ul><li>Confirm satisfaction and overall experience with the product and service</li></ul></li>
+<li><strong>Move to healthy</strong></li>
 </ol>
 `
 }
@@ -627,7 +583,7 @@ content:`
 billing:{
 "Make Payment":{
 title:"Billing - Make Payment",
-source:"Slide 26",
+source:"Slide 28",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -646,41 +602,35 @@ content:`
 },
 
 "Customer can't pay":{
-title:"Billing - Customer can't pay",
-source:"Slide 27",
+title:"Billing - Customer can't pay and PTP",
+source:"Slide 29",
 content:`
-<h3>Things we check</h3>
-
-<ul>
-<li>Check the card expiration date</li>
-<li>Review the error message</li>
-<li>Check the transaction history</li>
-</ul>
-
 <h3>What to do next</h3>
 <ul>
 <li>Tell the customer that payments are processed via saved card details or by entering new payment information at checkout.</li>
 <li>If the customer has an active subscription, payments are charged automatically monthly.</li>
 </ul>
 
-<h3>If the Customer Still Can't Pay</h3>
+<h3>If the Customer Can't Pay</h3>
+<p>Check if a Promise to Pay (PTP) is present on the account.</p>
 <ul>
-<li>Check if a Promise to Pay (PTP) is present on the account.</li>
-<li>If there is a PTP, suggest processing it. Do not select the last day of the month, as this date is not accepted by the system.</li>
-<li>If there is no PTP available on the account, let the customer know that they need to pay so the service can continue.</li>
+<li>If there is a PTP, suggest processing it. Do not pick the last date of the month — it is not applicable on the account (the last day will not be accepted by the system).</li>
+<li>If there is no PTP available on the account, let the customer know that they really need to pay the account so that the service will continue.</li>
 </ul>
 
 <div class="warning-box">
-<p>Setting up a Promise to Pay may help prevent the service from being automatically cancelled on the 7th day.</p>
-<p>Customers should set up a Promise to Pay before the 7th day to help avoid cancellation and keep their service active.</p>
-<p>They should also ensure sufficient funds are available on the agreed payment date so the payment can be processed successfully.</p>
+<ul>
+<li>Setting up a Promise to Pay may help prevent the service from being automatically cancelled on the 7th day.</li>
+<li>Customers should set up a Promise to Pay before the 7th day to help avoid cancellation and keep their service active.</li>
+<li>They should also ensure sufficient funds are available on the agreed payment date so the payment can be processed successfully.</li>
+</ul>
 </div>
 `
 },
 
 "Amount Check":{
 title:"Billing - Amount Check",
-source:"Slide 28",
+source:"Slides 30–31",
 content:`
 <h3>Things we check</h3>
 
@@ -700,7 +650,7 @@ content:`
 
 "Update Card Details":{
 title:"Billing - Update Card Details",
-source:"Slide 30",
+source:"Slide 32",
 content:`
 <h3>What to do next</h3>
 
@@ -723,7 +673,7 @@ content:`
 
 "Refund":{
 title:"Billing - Refund",
-source:"Slide 31",
+source:"Slide 33",
 content:`
 <h3>Things we check</h3>
 
@@ -755,7 +705,7 @@ content:`
 
 "Credit / Compensation":{
 title:"Billing - Credit / Compensation",
-source:"Slide 32",
+source:"Slide 34",
 content:`
 <h3>What to do next</h3>
 
@@ -774,7 +724,7 @@ content:`
 },
 "Invoice":{
 title:"Billing - Invoice",
-source:"Slide 33",
+source:"Slide 35",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -805,7 +755,7 @@ content:`
 
 "Bill Dispute":{
 title:"Billing - Bill Dispute",
-source:"Slide 34",
+source:"Slide 36",
 content:`
 <h3>Things we check</h3>
 
@@ -829,7 +779,7 @@ content:`
 
 "Proof of Payment":{
 title:"Billing - Proof of Payment",
-source:"Slide 35",
+source:"Slide 37",
 content:`
 <h3>Things we check</h3>
 
@@ -853,7 +803,7 @@ content:`
 
 "Reactivation (With Free Service)":{
 title:"Billing - Reactivation (With Free Service)",
-source:"Slide 36",
+source:"Slide 38",
 content:`
 <h3>Things we check</h3>
 
@@ -877,7 +827,7 @@ content:`
 
 "Reactivation (Inactive Account) — Loop Device":{
 title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet — Loop Device",
-source:"Slide 37",
+source:"Slide 39",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -914,7 +864,7 @@ content:`
 
 "Reactivation (Inactive Account) — e-SIM":{
 title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet — e-SIM",
-source:"Slide 38",
+source:"Slide 40",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -946,44 +896,9 @@ content:`
 `
 },
 
-"Reactivation (Inactive Account)":{
-title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet",
-source:"Slide 37",
-content:`
-<h3>Things we check</h3>
-<p><em>ask the customer, check in the station, etc.</em></p>
-
-
-<ul>
-<li>Customer's account is inactive due to non-payment</li>
-<li>Customer wants to reinstate the account</li>
-</ul>
-
-<h3>What to do next</h3>
-
-<p>To reinstate the service, the customer won't need to purchase a new device, as their existing Loop device is already linked to their account. The LoopDL App is pre-installed on the Loop Device — have them follow these steps:</p>
-
-<ol>
-<li>Connect the LOOP device to a Wi-Fi network or mobile hotspot.</li>
-<li>Sign in to the account.</li>
-<li>Go to My Account → Manage → My Subscription.</li>
-<li>Select the option to Reactivate or Resubscribe to the Unlimited Data Plan.</li>
-<li>A payment prompt will appear — process the upfront payment to complete the reactivation.</li>
-</ol>
-
-<p>Once the subscription has been successfully reactivated, service should resume on the customer's current device.</p>
-
-<div class="warning-box">
-<ul>
-<li>Make sure there are 3 or fewer SIMs on the loop before trying to reinstate — the loop can hold a max of around 4 e-SIMs.</li>
-</ul>
-</div>
-`
-},
-
 "Wall Garden":{
 title:"Billing - Wall Garden",
-source:"Slide 39",
+source:"Slide 42",
 content:`
 <h3>Things we check</h3>
 
@@ -1007,7 +922,7 @@ content:`
 account:{
 "Password Reset":{
 title:"Account - Password Reset",
-source:"Slides 51–52",
+source:"Slides 54–55",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -1027,13 +942,11 @@ content:`
 <li>If manually created email and not working, go to account actions</li>
 <li>Select Reset Password and Send</li>
 <li>Ask customer to check email for the 4 digit code</li>
-<li>Go to LoopDL website and click Sign In</li>
+<li>Click the link to go to the LoopDL website and click Sign In</li>
 <li>Click Forgot Password</li>
 <li>Enter 4 digit code and new password</li>
 <li>Confirm and continue</li>
 </ol>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 51</div>
 
 <figure class="kb-figure">
 <img src="${kbImages.image17}" alt="Password reset guide screenshot 1">
@@ -1053,14 +966,12 @@ content:`
 <li>If using Google or Apple, advise the customer to follow their provider's password reset guidance (e.g. using a passkey, etc.).</li>
 </ul>
 </div>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 52</div>
 `
 },
 
 "Account Deletion":{
 title:"Account - Account Deletion",
-source:"Slide 53",
+source:"Slide 56",
 content:`
 <h3>Things we check</h3>
 
@@ -1085,7 +996,7 @@ content:`
 
 "Change Details":{
 title:"Account - Change Details",
-source:"Slide 54",
+source:"Slide 57",
 content:`
 <h3>Things we check</h3>
 
@@ -1113,7 +1024,7 @@ content:`
 porting:{
 "Port-In":{
 title:"Porting - Port-In",
-source:"Slide 55",
+source:"Slide 58",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -1129,19 +1040,17 @@ content:`
 <ol>
 <li>Navigate to burger menu on top right corner</li>
 <li>Click Sign In</li>
-<li>Sign in to loopdl.co.uk</li>
-<li>Go to My Account</li>
-<li>Click Manage Active Plans</li>
-<li>Open Number Porting options</li>
-<li>Click Port In</li>
-<li>Enter number and PAC code</li>
-<li>Follow remaining prompts</li>
+<li>Sign in to the loopdl.co.uk site</li>
+<li>Go to My Account and click the plus button for the drop-down menu options</li>
+<li>Click Manage to open active plans</li>
+<li>Click the drop-down menu on Number Porting options</li>
+<li>Click Port In and follow the steps provided</li>
+<li>Insert the number requesting to port in and the PAC code related to it, then follow any other steps provided</li>
 </ol>
 
 <div class="warning-box">
 <ul>
-<li>Porting may take up to 48 business hours.</li>
-<li>Service interruption may occur during the transfer.</li>
+<li>Educate the customer that porting may take up to 48 business hours and that service will be interrupted during the process (loss of service on the number being ported — both LoopDL and previous provider).</li>
 <li>If there is an error, inform TL and escalate for manual porting.</li>
 </ul>
 </div>
@@ -1150,7 +1059,7 @@ content:`
 
 "Port-Out":{
 title:"Porting - Port-Out",
-source:"Slide 56",
+source:"Slide 59",
 content:`
 <h3>Things we check</h3>
 
@@ -1170,19 +1079,13 @@ content:`
 <li>Confirm the PAC and expiry with the customer and remind them their service will end on cutover.</li>
 </ol>
 
-<div class="warning-box">
-<ul>
-<li>Porting should complete within 48 business hours.</li>
-<li>Weekends and holidays are excluded.</li>
-</ul>
-</div>
 `
 }
 },
 logistics:{
 "Where Is My Delivery":{
 title:"Logistics - Where Is My Delivery",
-source:"Slides 40–41",
+source:"Slides 43–44",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -1191,8 +1094,6 @@ content:`
 <li>Order date</li>
 <li>Tracking URL</li>
 </ul>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 40</div>
 
 <h3>What to do next</h3>
 
@@ -1218,22 +1119,18 @@ content:`
 <li>If the address is not correct, follow Change of Address process.</li>
 </ul>
 </div>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 41</div>
 `
 },
 
 "Change of Address":{
 title:"Logistics - Change of Address",
-source:"Slides 42–43",
+source:"Slides 45–46",
 content:`
 <h3>Things we check</h3>
 
 <ul>
 <li>Order status</li>
 </ul>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 42</div>
 
 <h3>What to do next</h3>
 
@@ -1256,14 +1153,12 @@ content:`
 <li>Other statuses – address can be updated.</li>
 </ul>
 </div>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 43</div>
 `
 },
 
 "Failed Delivery":{
 title:"Logistics - Failed Delivery",
-source:"Slide 44",
+source:"Slide 47",
 content:`
 <h3>Things we check</h3>
 
@@ -1286,7 +1181,7 @@ content:`
 
 "Returns":{
 title:"Logistics - Returns",
-source:"Slide 45",
+source:"Slide 48",
 content:`
 <h3>Things we check</h3>
 
@@ -1305,7 +1200,7 @@ content:`
 
 "Replacements":{
 title:"Logistics - Replacements",
-source:"Slide 46",
+source:"Slide 49",
 content:`
 <h3>Things we check</h3>
 
@@ -1328,7 +1223,7 @@ content:`
 
 "Fast Delivery Request":{
 title:"Logistics - Fast Delivery Request",
-source:"Slide 47",
+source:"Slide 50",
 content:`
 <h3>Things we check</h3>
 
@@ -1350,7 +1245,7 @@ content:`
 device:{
 "Not Charging":{
 title:"Device - Not Charging",
-source:"Slide 57 (top)",
+source:"Slide 60",
 content:`
 <h3>Issue: Not Charging</h3>
 
@@ -1374,14 +1269,14 @@ content:`
 
 "Fast Battery Drain":{
 title:"Device - Fast Battery Drain",
-source:"Slide 57 (bottom)",
+source:"Slide 60",
 content:`
 <h3>Issue: Fast Battery Drain</h3>
 
 <h4>Ask checklist / Troubleshooting</h4>
 <ul>
 <li>Battery saver is turned off</li>
-<li>Battery calibration completed</li>
+<li>Battery calibration done (charged 3 times, still depletes fast)</li>
 <li>Tried a different power cable</li>
 <li>Tried a different power outlet</li>
 <li>Performed factory reset</li>
@@ -1399,11 +1294,12 @@ content:`
 
 "No Sound / Crashing / Constant Reboot":{
 title:"Device - No Sound / Crashing / Constant Reboot",
-source:"Slides 58–59",
+source:"Slides 60–62",
 content:`
 <div class="warning-box">
 <ul>
-<li>Factory reset erases all stored data and settings.</li>
+<li><strong>Disclosure:</strong> A factory reset will erase all stored data, custom settings, and Wi-Fi configurations, returning the device to its original state.</li>
+<li><strong>Ask permission from TL before giving out factory reset steps to the customer.</strong></li>
 <li>If issue persists, escalate to support.</li>
 <li>If device arrived faulty, proceed to Logistics → Replacements.</li>
 </ul>
@@ -1440,11 +1336,6 @@ content:`
 <ol>
 <li>Power off device</li>
 <li>Hold Power + Volume Up</li>
-</ol>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 58</div>
-
-<ol start="3">
 <li>Navigate to Wipe Data / Factory Reset
 <div class="recovery-images">
 <figure class="kb-figure">
@@ -1457,14 +1348,12 @@ content:`
 <li>Select Reboot System Now</li>
 </ol>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 59</div>
-
 `
 },
 
 "Application Issue":{
 title:"Device - Application Issue",
-source:"Slide 60",
+source:"Slide 63",
 content:`
 <h3>Issue: Application Issue</h3>
 
@@ -1486,7 +1375,7 @@ content:`
 
 "Constantly Rebooting / Black Screen":{
 title:"Device - Constantly Rebooting / Black Screen",
-source:"Slide 61",
+source:"Slide 64",
 content:`
 <h3>Issue: Constantly Rebooting or Black Screen</h3>
 
@@ -1511,7 +1400,7 @@ content:`
 cancel:{
 "Cancellation Reasons":{
 title:"Cancel - Cancellation Reasons",
-source:"Slides 48–49",
+source:"Slides 51–53",
 content:`
 <h3>Affordability / Better Deal / Change of Heart</h3>
 <ul>
@@ -1523,32 +1412,39 @@ content:`
 <figcaption>Cancellation reasons — decision flow</figcaption>
 </figure>
 
+<div class="warning-box">
 <h3>Network / Coverage</h3>
-<ol>
-<li>Run Speed Test</li>
-<li>Troubleshoot including restart and hard reset</li>
-<li>If issue resolved, attempt retention</li>
-<li>If issue persists and customer insists, process scheduled cancellation</li>
-</ol>
-
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 48</div>
+<ul>
+<li>Seek approval for cancellation from TL present</li>
+<li>For scheduled and immediate.</li>
+<li>If the customer wanted refund for the service and there is no usage.
+<ul>
+<li>Ask assistance from TL present</li>
+</ul>
+</li>
+</ul>
+</div>
 
 <h3>Incompatibility</h3>
 <ol>
-<li>Check phone make and model</li>
-<li>Check compatibility</li>
-<li>If compatible, follow Activation process</li>
-<li>If incompatible, attempt retention on another phone</li>
-<li>If declined, process scheduled cancellation</li>
+<li>Check the mobile phone make and model and check for compatibility</li>
+<li>Compatible: check the activation status, then follow the Activation procedure</li>
+<li>Incompatible: try to retain the customer by asking to install the app on another phone
+<ul><li>Retained — ok</li><li>Customer declined — process scheduled cancellation</li></ul></li>
 </ol>
 
-<div class="inline-source">Source: LoopDL UK Gameplan — Slide 49</div>
+<h3>Immediate Cancellation Request</h3>
+<p>If the customer wants to cancel the account immediately, ask for approval depending on the cancellation reason.</p>
+<ul>
+<li>If approved by TL — perform immediate cancellation.</li>
+<li>If not approved — explain to the customer that scheduled cancellation is needed, that there will not be a new invoice, and that the account will be cancelled at the end of the month.</li>
+</ul>
 `
 },
 
 "No Reason Stated":{
 title:"Cancel - No Reason Stated",
-source:"Slide 50",
+source:"Slide 53",
 content:`
 <ul>
 <li>Call the customer and ask for cancellation reason</li>
@@ -1560,7 +1456,7 @@ content:`
 misc:{
 "No Issue Stated":{
 title:"No Issue - No Issue Stated on Ticket",
-source:"Slide 62",
+source:"Slide 65",
 content:`
 <ul>
 <li>Customer requests email communication only</li>
@@ -1573,14 +1469,14 @@ content:`
 
 "DNC (Do Not Call)":{
 title:"DNC - Do Not Call",
-source:"Slide 63",
+source:"Slide 66",
 content:`
 <h3>UK Customers</h3>
 <ul>
 <li>Check AI LoopDL interaction</li>
 <li>Call customer once</li>
-<li>If cooperative, resolve issue</li>
-<li>If not cooperative, escalate</li>
+<li>If the customer cooperates on the call, select the issue within the guide and help resolve it</li>
+<li>If the customer answers and is not cooperative because of the DNC, escalate</li>
 <li>If unanswered, escalate for email communication</li>
 </ul>
 
@@ -1588,31 +1484,33 @@ content:`
 <ul>
 <li>Check AI LoopDL interaction</li>
 <li>Call customer once</li>
-<li>Advise we only cater UK customers</li>
-<li>Schedule cancellation if needed</li>
-<li>If unanswered, escalate for email communication</li>
+<li>Advise that we only cater to UK-based customers</li>
+<li>Set account for scheduled cancellation if not yet scheduled</li>
+<li>If the customer answers and is not cooperative because of the DNC, escalate</li>
+<li>If the customer does not answer, escalate for email communication</li>
 </ul>
 `
 },
 
 "Onboarding Process":{
 title:"Onboarding Process",
-source:"Slide 25",
+source:"Slide 27",
 content:`
 <ol>
-<li>Run speed test and optimization in theStation</li>
-<li>Check customer experience</li>
-<li>Verify connection speed with customer</li>
-<li>Get customer feedback</li>
-<li>Confirm satisfaction and overall experience</li>
-<li>Move to healthy</li>
+<li><strong>Onboarding new devices</strong>
+<ul><li>Run speed test and optimization in theStation</li></ul></li>
+<li><strong>Checking experience</strong>
+<ul><li>Verify connection speed with the customer</li></ul></li>
+<li><strong>Getting customer feedback</strong>
+<ul><li>Confirm satisfaction and overall experience with the product and service</li></ul></li>
+<li><strong>Move to healthy</strong></li>
 </ol>
 `
 },
 
 "Vulnerable Customers (LACE Framework)":{
 title:"Vulnerable Customers - LACE Framework",
-source:"Slide 64",
+source:"Slide 67",
 content:`
 <p>This serves as a guide on how to handle vulnerable customers (e.g., mental health concerns, health issues, or inability to pay). If the customer is not eligible for a Promise to Pay arrangement, follow this process:</p>
 
@@ -1639,7 +1537,7 @@ content:`
 
 "Banned Customers":{
 title:"Banned Customers - Verbatim",
-source:"Slide 65",
+source:"Slide 68",
 content:`
 <p>Listen carefully to the customer's concern without interruption. Allow them to fully explain their situation.</p>
 
@@ -1659,10 +1557,68 @@ content:`
 `
 }
 },
-notes:{
-"Notes":{
-title:"Notes",
-content:`
+};
+
+let currentCategory="";
+function loadCategory(category){
+ currentCategory=category;
+ const list=document.getElementById('articleList');
+ list.innerHTML='';
+ Object.keys(knowledge[category]).forEach(article=>{
+  const btn=document.createElement('button');
+  btn.className='article-item';
+  btn.textContent=formatLabel(article);
+  btn.onclick=()=>openArticle(category,article);
+  list.appendChild(btn);
+ });
+}
+function openArticle(category,article){
+ const entry=knowledge[category][article];
+ document.getElementById('articleTitle').innerText=formatLabel(entry.title);
+ document.getElementById('articleContent').innerHTML=entry.content;
+ const footnote=document.getElementById('sourceFootnote');
+ if(entry.source){
+  const sources=Array.isArray(entry.source)?entry.source:[entry.source];
+  const lines=sources.map(s=>'Source: LoopDL UK Gameplan — '+s).join('<br>');
+  footnote.innerHTML='<br><br>'+lines;
+  footnote.style.display='block';
+ } else {
+  footnote.innerHTML='';
+  footnote.style.display='none';
+ }
+}
+function stripHtml(html){
+ return html.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
+}
+function formatLabel(str){
+ return str
+  .replace(/Constant Reboot/gi,m=>m.replace(' ','\u00A0'))
+  .replace(/\(LACE Framework\)/gi,m=>m.replace(/ /g,'\u00A0'))
+  .replace(/WIFI issues \/ Streaming/gi,m=>m.replace(/ /g,'\u00A0'))
+  .replace(/Vodafone UK e-SIM/gi,m=>m.replace(/ /g,'\u00A0'))
+  .replace(/Loop Device/gi,m=>m.replace(' ','\u00A0'))
+  .replace(/e-SIM/gi,m=>m.replace('-','\u2011'));
+}
+function searchArticles(){
+ const term=document.getElementById('searchBox').value.toLowerCase().trim();
+ const list=document.getElementById('articleList');
+ list.innerHTML='';
+ Object.keys(knowledge).forEach(cat=>{
+  Object.keys(knowledge[cat]).forEach(article=>{
+   const entry=knowledge[cat][article];
+   const haystack=(cat+' '+article+' '+stripHtml(entry.content||'')).toLowerCase();
+   if(haystack.includes(term)){
+    const btn=document.createElement('button');
+    btn.className='article-item';
+    btn.textContent=formatLabel(article+' ('+cat.charAt(0).toUpperCase()+cat.slice(1)+')');
+    btn.onclick=()=>openArticle(cat,article);
+    list.appendChild(btn);
+   }
+  });
+ });
+}
+
+const notesContent=`
 <h3>Important info from cx</h3>
 <ul>
 <li>Phone number and email they wish to be contacted from</li>
@@ -1757,72 +1713,14 @@ content:`
 <li>support@loopdl.co.uk</li>
 <li>legal@loopdl.co.uk</li>
 </ul>
-`
-}
-},
-};
-
-let currentCategory="";
-function loadCategory(category){
- currentCategory=category;
- const list=document.getElementById('articleList');
- list.innerHTML='';
- Object.keys(knowledge[category]).forEach(article=>{
-  const btn=document.createElement('button');
-  btn.className='article-item';
-  btn.textContent=formatLabel(article);
-  btn.onclick=()=>openArticle(category,article);
-  list.appendChild(btn);
- });
-}
-function openArticle(category,article){
- const entry=knowledge[category][article];
- document.getElementById('articleTitle').innerText=formatLabel(entry.title);
- document.getElementById('articleContent').innerHTML=entry.content;
- const footnote=document.getElementById('sourceFootnote');
- if(entry.source){
-  const sources=Array.isArray(entry.source)?entry.source:[entry.source];
-  const lines=sources.map(s=>'Source: LoopDL UK Gameplan — '+s).join('<br>');
-  footnote.innerHTML='<br><br>'+lines;
-  footnote.style.display='block';
- } else {
-  footnote.innerHTML='';
-  footnote.style.display='none';
- }
-}
-function openNotes(){
+`;
+function loadNotes(){
  currentCategory="notes";
- const list=document.getElementById('articleList');
- list.innerHTML='';
- openArticle('notes','Notes');
-}
-function stripHtml(html){
- return html.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
-}
-function formatLabel(str){
- return str
-  .replace(/Constant Reboot/gi,m=>m.replace(' ','\u00A0'))
-  .replace(/\(LACE Framework\)/gi,m=>m.replace(/ /g,'\u00A0'))
-  .replace(/WIFI issues \/ Streaming/gi,m=>m.replace(/ /g,'\u00A0'))
-  .replace(/Vodafone UK e-SIM/gi,m=>m.replace(/ /g,'\u00A0'))
-  .replace(/Loop Device/gi,m=>m.replace(' ','\u00A0'))
-  .replace(/e-SIM/gi,m=>m.replace('-','\u2011'));
-}
-function searchArticles(){
- const term=document.getElementById('searchBox').value.toLowerCase().trim();
- const list=document.getElementById('articleList');
- list.innerHTML='';
- Object.keys(knowledge).forEach(cat=>{
-  Object.keys(knowledge[cat]).forEach(article=>{
-   const entry=knowledge[cat][article];
-   const haystack=(cat+' '+article+' '+stripHtml(entry.content||'')).toLowerCase();
-   if(haystack.includes(term)){
-    const btn=document.createElement('button');
-    btn.className='article-item';
-    btn.textContent=formatLabel(article+' ('+cat.charAt(0).toUpperCase()+cat.slice(1)+')');
-    btn.onclick=()=>openArticle(cat,article);
-    list.appendChild(btn);
-   }
-  });
- });
+ document.getElementById('articleList').innerHTML='';
+ document.getElementById('searchBox').value='';
+ document.getElementById('articleTitle').innerText='Notes';
+ document.getElementById('articleContent').innerHTML=notesContent;
+ const footnote=document.getElementById('sourceFootnote');
+ footnote.innerHTML='';
+ footnote.style.display='none';
 }
